@@ -10,7 +10,7 @@ export default class HomePage extends Component {
 
                         <div className="item">
                             <div className="img1">
-                                <img src="images/cgportfoliopic2.jpg" alt="picture of Caitlin" />
+                                <img src="images/cgportfoliopic2.jpg" alt='caitlin' />
                             </div>
                         </div>
                         <div className="item-double">
