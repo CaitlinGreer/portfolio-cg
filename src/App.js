@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Route, Switch } from 'react-router-dom'
+import './App.css'
 
 import HomePage from './HomePage/HomePage'
 import AboutMe from './AboutMe/AboutMe'
@@ -12,11 +12,11 @@ export default class App extends Component {
   render(){
 
   return (
-    <div>
-      <nav>
+    <div className='App'>
+      <nav className='nav-container'>
         <NavBar />
       </nav>
-      <main>
+      <main className='main-container'>
         <HomePage />
         <AboutMe />
         <Portfolio />
