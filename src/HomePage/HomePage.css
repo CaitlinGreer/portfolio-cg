@@ -1,0 +1,70 @@
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+    padding-left: 2%;
+    padding-bottom: 15%;
+}
+
+.headshot {
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 35%;
+    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, .3);
+    
+}
+
+.homepage-text {
+    font-family: 'Optima', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: #3a506b;
+    color: white;
+    padding: 2%;
+    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, .3);
+    text-align: center;
+
+}
+
+.homepage-text h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.homepage-text h3 {
+    font-family: "Bradley Hand", Arial, sans-serif;
+}
+
+
+@media all and (min-width: 600px){
+    .homepage-container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .headshot-container {
+        margin-right: 5%;
+    }
+    
+    .headshot {
+        height: 300px;
+        margin-top: 10%;
+        
+    }
+    
+    .homepage-text h2 {
+        font-size: 30px;
+    }
+
+    .homepage-text h3 {
+        font-size: 24px;
+    }
+
+    .homepage-text {
+        text-align: justify;
+        font-size: 18px;
+    }
+}

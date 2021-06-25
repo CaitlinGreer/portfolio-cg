@@ -1,0 +1,125 @@
+.contact-form-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3a506b;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.page-heading {
+    font-size: 25px;
+}
+
+.contact-form-fieldset {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,.4);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5% 2%;
+    font-size: 20px;
+  
+}
+
+.text-input-label {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text-input {
+    margin-top: 1%;
+    margin-left: 2px;
+    padding: 10px;
+    padding-left: 3%;
+    border: transparent;
+    border-radius: 5px;
+    font-family: 'Optima', Arial, sans-serif;
+    background-color: #304a69;
+    color: #f7f7f7;
+   
+}
+
+::placeholder {
+    color: #f7f7f7;
+    font-family: 'Optima', Arial, sans-serif;
+}
+.submit-button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10%;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    pointer-events: all;
+    background-color: #f7f7f7;
+    border: 1px lightgrey solid;
+    background-image: linear-gradient(-180deg, #f7f7f7 0%, #e7e7e7 100%);
+    color: #304a69;
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+}
+
+.contact-links-container {
+    padding-top: 15%;
+}
+.contact-links-container a{
+    color: #304a69;
+    
+}
+
+.contact-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 75px;
+    margin-top: -5%;
+
+}
+
+
+@media all and (min-width: 600px) {
+    .contact-form-container {
+        height: 150vh;
+        margin-top: -15%;
+    }
+
+    .contact-form-fieldset {
+        padding: 2% 2%;
+    }
+
+    .text-input-label {
+        margin-top: 2%;
+        margin-bottom: -1%;
+        padding-left: 1%;
+        font-size: 18px;
+    }
+
+   
+    .submit-button {
+        margin-top: 2%;
+        width: 30%;
+        
+    }
+
+    .contact-links-container {
+        margin-top: -5%;
+    }
+    .contact-links-container h3{
+        font-size: 25px;
+    }
+    .contact-links {
+        padding-top: 5%;
+    }
+}
