@@ -30,10 +30,11 @@ export default class AboutMe extends Component {
                     <p>I provide a wide range of services from back end to front end developement, so let's build some things!
                        Reach out and let's talk about your project!
                     </p>
-                    <p>My Skills include but aren't limited to:
+                    <div className='p'>My Skills include but aren't limited to:
+                      
                         <Skills />
                         
-                    </p> 
+                    </div> 
                 </div>
                 <div className="travel-img">
                     <img src={travel} alt="map and camera" className='travel-image' />
