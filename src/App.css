@@ -4,8 +4,17 @@
 }
 
 .App{
-    background-image: url(/src/images/whitetexturebackground.jpg);
+    margin: 0 auto;
+} 
+
+html{
+    background: url(/src/images/whitetexturebackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    background-color: white;
 }
 

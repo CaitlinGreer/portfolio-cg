@@ -1,6 +1,7 @@
 .contact-form-container {
     display: flex;
     height: 100vh;
+    
     flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #3a506b;
