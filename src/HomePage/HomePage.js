@@ -18,8 +18,8 @@ export default class HomePage extends Component {
 
                     <h3>Coming at you live from Orlando, Florida</h3>
                     <p>As a new kid in the web developer world I find myself drawn to the concept of creating something from nothing.
-                        I have been fortunate enough to spend most of my adult life working face to face with people in a creative industry. 
-                        The years I spent working in such an environment provided me with, what I often refer to as, my super power.  And what 
+                        I have been fortunate enough to spend most of my adult life working in a creative industry, face to face with people. 
+                        The years I spent working in such an environment provided me with, what I often refer to as, my super power.  What 
                         power is that you ask?  It's the ability to take an idea and create something that exceeds client expectations
                         every time.
                     </p>
