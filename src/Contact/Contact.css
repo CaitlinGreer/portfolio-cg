@@ -75,8 +75,15 @@
     padding-top: 15%;
 }
 .contact-links-container a{
+    display: flex;
+    flex-direction: column;
     color: #304a69;
+    justify-content: center;
     
+}
+
+.contact-link-label {
+    font-size: 15px;
 }
 
 .contact-links {

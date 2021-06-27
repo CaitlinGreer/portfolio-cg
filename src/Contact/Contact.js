@@ -46,10 +46,10 @@ export default class Contact extends Component {
                                 placeholder="Let's chat!"
                                 required
                             />
-                           <br />
-                           <button type="submit" className='submit-button'>Submit</button>
-                       </fieldset>
-                   </form>
+                            <br />
+                            <button type="submit" className='submit-button'>Submit</button>
+                        </fieldset>
+                    </form>
                 </div>
 
                 <div className='contact-links-container'>
@@ -57,12 +57,14 @@ export default class Contact extends Component {
                     <ul className='contact-links'>
                         <li>
                             <a href='https://github.com/CaitlinGreer'>
-                                <FontAwesomeIcon icon={faGithubSquare} className='github' name='github'/>
+                                <FontAwesomeIcon icon={faGithubSquare} className='github' name='github' />
+                                <span className='contact-link-label'>GitHub</span>
                             </a>
                         </li>
                         <li>
                             <a href='https://www.linkedin.com/in/caitlingreer/'>
-                                <FontAwesomeIcon icon={faLinkedin} className='linked-in' name='linkedin'/> 
+                                <FontAwesomeIcon icon={faLinkedin} className='linked-in' name='linkedin' />
+                                <span className='contact-link-label'>LinkedIn</span>
                             </a>
                         </li>
                     </ul>
