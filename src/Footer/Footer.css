@@ -11,6 +11,11 @@
 
 .footer-container p {
     padding-top: 2px;
-    padding-left: 2px;
+    padding-left: 5px;
 }
 
+@media all and (min-width: 600px){
+    .footer-container{
+    font-size: 15px;
+}
+}

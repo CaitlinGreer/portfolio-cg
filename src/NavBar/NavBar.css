@@ -24,7 +24,11 @@
     text-decoration: none;
     margin-bottom: -2%;
     padding-right: 10px;
-    color: #bcc5c5;
+    color: #FFFFFF;
+}
+
+.nav-links a:hover {
+    color: lightblue;
 }
 
 .nav-header{
