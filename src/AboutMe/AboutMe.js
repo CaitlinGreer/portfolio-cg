@@ -21,13 +21,13 @@ export default class AboutMe extends Component {
                     <p>My adventure into learning web development at <a href="https://bloc.thinkful.com/" >Bloc/Thinkful</a> has
                          been one of the most challenging and rewarding things I've ever done.  
                          We all know that teamwork makes the dreamwork, so I'm always looking to work with a team or 
-                         collborate with other developers and truly experiencing everything the industry has to offer.
+                         collaborate with other developers and truly experiencing everything the industry has to offer.
                     </p>
                     <p>If you don't find me at my desk, you'll most likely find me bouncing around Disney World soaking 
                         up some Disney magic, button smashing on my Xbox, spending some quality time with my two dogs or 
                         traveling anywhere I possibly can.</p>
                                        
-                    <p>I provide a wide range of services from back end to front end developement, so let's build some things!
+                    <p>I provide a wide range of services from back end to front end development, so let's build some things!
                        Reach out and let's talk about your project!
                     </p>
                     <div className='p'>My Skills include but aren't limited to:
