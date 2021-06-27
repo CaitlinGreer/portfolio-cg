@@ -6,7 +6,8 @@
     background-color: #3a506b;
     color: white;   
     font-size: 10px;
-    margin-bottom: 0px;
+    bottom: 0;
+    position: fixed;
     
 }
 
