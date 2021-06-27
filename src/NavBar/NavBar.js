@@ -14,7 +14,6 @@ export default class NavBar extends Component {
 
                 <div className='nav-links-container'>
                     <ul className='nav-links'>
-                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Reach Out</a></li>
