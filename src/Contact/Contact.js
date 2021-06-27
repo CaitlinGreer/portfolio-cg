@@ -10,8 +10,11 @@ export default class Contact extends Component {
             <div id='contact' className='contact-form-container'>
                 <h3 className='page-heading'>Reach Out</h3>
 
-                <div>
-                    <form action="https://formspree.io/f/mpzojzpp" method="POST" className='contact-form'>
+                <div className='contact-form'>
+                    <form
+                        action="https://formspree.io/f/mbjqkgdl"
+                        method="POST"
+                    >
                         <fieldset className='contact-form-fieldset' >
                             <legend>Send Me An Email</legend>
                             <label htmlFor='user-name' className='text-input-label'>Name:</label>
@@ -19,8 +22,8 @@ export default class Contact extends Component {
                                 className='text-input'
                                 type='text'
                                 id='user-name'
-                                name='user-name'
-                                placeholder='Name'
+                                name='name'
+                                placeholder='Tell Me Your Name!'
                             />
                             <br />
                             <label htmlFor='email' className='text-input-label'>Email:</label>
@@ -29,17 +32,21 @@ export default class Contact extends Component {
                                 type='text'
                                 id='email'
                                 name='email'
-                                placeholder='Email'
+                                placeholder="What's your email?"
                             />
                             <br />
                             <label htmlFor='form-message' className='text-input-label'>Your Message:</label>
                             <textarea
                                 className='text-input'
                                 type='text'
-                                id='message'
+                                id='form-message'
                                 name='message'
                                 placeholder="Let's chat!"
-                            />
+                            >
+
+                            </textarea>
+
+
                             <br />
                             <button type="submit" className='submit-button'>Submit</button>
                         </fieldset>
@@ -61,7 +68,7 @@ export default class Contact extends Component {
                         </li>
                     </ul>
                 </div>
-                          
+
             </div>
         )
     }
