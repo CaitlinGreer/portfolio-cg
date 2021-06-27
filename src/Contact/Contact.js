@@ -58,12 +58,12 @@ export default class Contact extends Component {
                     <ul className='contact-links'>
                         <li>
                             <a href='https://github.com/CaitlinGreer'>
-                                <FontAwesomeIcon icon={faGithubSquare} className='github' />
+                                <FontAwesomeIcon icon={faGithubSquare} className='github' /> 
                             </a>
                         </li>
                         <li>
                             <a href='https://www.linkedin.com/in/caitlingreer/'>
-                                <FontAwesomeIcon icon={faLinkedin} className='linked-in' />
+                                <FontAwesomeIcon icon={faLinkedin} className='linked-in' /> 
                             </a>
                         </li>
                     </ul>
