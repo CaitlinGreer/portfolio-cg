@@ -24,6 +24,7 @@ export default class Contact extends Component {
                                 id='user-name'
                                 name='name'
                                 placeholder='Tell Me Your Name!'
+                                required
                             />
                             <br />
                             <label htmlFor='email' className='text-input-label'>Email:</label>
@@ -33,6 +34,7 @@ export default class Contact extends Component {
                                 id='email'
                                 name='email'
                                 placeholder="What's your email?"
+                                required
                             />
                             <br />
                             <label htmlFor='form-message' className='text-input-label'>Your Message:</label>
@@ -42,15 +44,12 @@ export default class Contact extends Component {
                                 id='form-message'
                                 name='message'
                                 placeholder="Let's chat!"
-                            >
-
-                            </textarea>
-
-
-                            <br />
-                            <button type="submit" className='submit-button'>Submit</button>
-                        </fieldset>
-                    </form>
+                                required
+                            />
+                           <br />
+                           <button type="submit" className='submit-button'>Submit</button>
+                       </fieldset>
+                   </form>
                 </div>
 
                 <div className='contact-links-container'>
