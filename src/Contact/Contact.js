@@ -11,7 +11,7 @@ export default class Contact extends Component {
                 <h3 className='page-heading'>Reach Out</h3>
 
                 <div>
-                    <form action="https://formspree.io/f/mpzojzpp" method="post" className='contact-form'>
+                    <form action="https://formspree.io/f/mpzojzpp" method="POST" className='contact-form'>
                         <fieldset className='contact-form-fieldset' >
                             <legend>Send Me An Email</legend>
                             <label htmlFor='user-name' className='text-input-label'>Name:</label>
